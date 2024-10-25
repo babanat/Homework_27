@@ -1,0 +1,16 @@
+.theme-switcher {
+    margin: 10px 0;
+    text-align: center;
+   
+  }
+  
+  .theme-switcher button {
+    padding: 10px 20px;
+    background-color: rgb(25, 25, 157);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+
+  }
+  

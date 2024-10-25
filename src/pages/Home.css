@@ -1,0 +1,11 @@
+.home {
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .home-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
