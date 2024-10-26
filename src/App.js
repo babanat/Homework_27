@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import ThemeSwitcher from './components/ThemeSwitcher'
 import MyErrorBoundary from "./utils/ErrorBoundary";
 import { ThemeProvider } from "./context/ThemeContext";
+import NoteFound from "./NoteFound";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/about" element={<About />} />
+            <Route path="*" element={<NoteFound />} />
           </Routes>
         </MyErrorBoundary>
       </Router>
