@@ -7,7 +7,7 @@ function ThemeSwitcher() {
   return (
     <div className="theme-switcher">
     <button className="theme-switch-button" onClick={toggleTheme}>
-      Переключить на {theme === 'light' ? 'dark' : 'light'} тему
+      Switch to {theme === 'light' ? 'dark' : 'light'} theme
     </button>
   </div>
 
