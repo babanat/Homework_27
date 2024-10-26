@@ -12,7 +12,6 @@ import NoteFound from "./NoteFound";
 function App() {
   return (
     <ThemeProvider>
-      <div className={'App'}>
       <Router>
         <Header />
         <ThemeSwitcher />
@@ -25,7 +24,6 @@ function App() {
           </Routes>
         </MyErrorBoundary>
       </Router>
-      </div>
     </ThemeProvider>
   );
 }
